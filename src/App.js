@@ -1,11 +1,16 @@
 import './App.css';
 import React from "react";
+import Navbar from "./Components/Navbar";
+import { Link, animateScroll as scroll} from "react-scroll";
 
 function App() {
   const AboutMeSection = createAboutMeSection();
   return (
     <div className="App">
       <header className="App-header">
+        <Navbar />
+        <br/>
+        <br/>
         <title>Hi, I'm Michael</title>
         <h1 className="App-title">Hi, I'm Michael</h1>
         <p className="App-info">
@@ -20,8 +25,6 @@ function App() {
         >
           Checkout my linkedin
         </a>
-        <a href="#about">About Me</a>
-        
         
       </header>
 
@@ -37,7 +40,9 @@ function App() {
 function createAboutMeSection() {
   return(
     <div>
-      <header className="App-header"> About Me
+      <header className="App-header"> 
+      <br/>
+      About Me
       <header>ME</header>
       <p className="App-info">
         I am a computer engineer studying at Queen's University located
