@@ -8,8 +8,20 @@ export default class Navbar extends Component {
             <div className="nav-content">
                 <ul className="nav-items">
                     <li className="nav-item">
+                    <Link 
+                        activeClass="active"
+                        to="welcome"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        >
+                            Welcome
+                        </Link>
+                    </li>
+                    <li className="nav-item">
                         <Link 
-                        activeClass="actove"
+                        activeClass="active"
                         to="about"
                         spy={true}
                         smooth={true}
@@ -19,8 +31,18 @@ export default class Navbar extends Component {
                             About Me
                         </Link>
                     </li>
-                    <li className="nav-item">About you</li>
-                    <li className="nav-item">About us</li>
+                    <li className="nav-item">
+                        <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        >
+                            Get in touch
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>

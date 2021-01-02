@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #223864;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,30 +27,87 @@
   padding-right: 10%;
 }
 
-.App-link {
-  font-size: medium;
-  color: #61dafb;
+.App-title {
+  z-index: 10;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  line-height: 75%;
+  font-size: 8vmin;
+  margin-bottom: 5vmin;
+  margin-top: 5vmin;
+  letter-spacing: 0.1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+}
+
+.about-header {
+  background-color: #225964;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-size: 25;
+  padding-left: 20pt;
+  padding-right: 10;
+}
+
+.contact-header {
+  background-color: #2d2264;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-size: 25;
+  padding-left: 20pt;
+  padding-right: 10;
+}
+
+.links {
+  position: relative;
+  width: 54px;
+  height: 54px;
+}
+
+.link-content {
+  position: right;
+  justify-content: right;
 }
 
 .nav {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 4px 14px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.753);
 }
 .nav .nav-content {
   max-width: 900px;
-  padding: 0rem 3rem;
+  padding: 0rem 30rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  background-color: #c2c9d68f;
+  background-color: #97c9e000;
 }
 
 .nav-item{
+  justify-content: center;
   display: inline;
   margin-left: 2rem;
-  color: #223864;
+  color: #000000;
+  cursor: pointer;
+  
+}
+
+.banner-wrapper {
+  position: relative;
+  height: calc(200px+20vmax);
 }
