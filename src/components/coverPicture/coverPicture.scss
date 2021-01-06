@@ -1,0 +1,13 @@
+.image-container {
+  height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  z-index: 0;
+  position: absolute;
+  justify-content: right;
+}
+img.coverPhoto {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

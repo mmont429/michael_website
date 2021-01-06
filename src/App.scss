@@ -1,0 +1,152 @@
+// Global Variables
+
+$background-light: #ece8e1;
+$header-light: #0c1a28;
+$body-light: #0f1923;
+
+$background-dark: #0c1a28;
+$header-dark: #ece8e1;
+$body-dark: #ece8e1;
+
+/* Main layout elements */
+.App {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+.padded-div {
+  margin-top: calc(15pt + 2vmin);
+  margin-right: calc(8pt + 8vmin);
+  margin-left: calc(8pt + 8vmin);
+  position: relative;
+}
+.flex-row {
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 70%;
+}
+.banner-wrapper {
+  position: relative;
+  height: calc(200px + 20vmax);
+}
+
+/* Title */
+
+.title {
+  z-index: 10;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  line-height: 75%;
+  font-size: calc(4em + 10vmin);
+  color: $header-light;
+  margin-bottom: 5vmin;
+  margin-top: 5vmin;
+  letter-spacing: 0.1rem;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.753);
+}
+
+/* Theme Toggle */
+
+.theme-toggle {
+  position: relative;
+  float: right;
+  width: 24;
+  z-index: 99;
+  height: 24;
+  padding: 10px;
+  &:hover {
+    width: 28;
+    height: 28;
+  }
+}
+
+/* Headers  */
+.h1 {
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  max-height: 0vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(56pt + 1vmin);
+  letter-spacing: 0.1em;
+}
+
+/* Basics formatting */
+p.limited-width {
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+.url {
+  color: black;
+  text-decoration-color: light-grey;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+}
+.url:hover {
+  font-family: "DIN Next Lt Pro Medium";
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.753);
+}
+.nav .nav-content {
+  padding: 0rem 0rem 0rem 3rem;
+  margin: 0 10%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  width: 60%;
+  background-color: #97c9e0;
+}
+
+.nav-items{
+  justify-content: left;
+  display: flex;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  color: #000000;
+  font-size: 5vmin;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  
+}
+
+.nav-item{
+  width:px;
+  cursor: pointer;
+  padding-right: 10%;
+  list-style-type: none;
+}
+/* Button */
+/* Animations Keyframes */
+
+@keyframes slide-in-title {
+  from {
+    transform: translate(-100%, -105%) scaleX(0);
+  }
+  to {
+    transform: translate(-2%, -105%) scaleX(1);
+  }
+}
+@keyframes slide-in-h1 {
+  from {
+    transform: translate(-100%, -75%) scaleX(0);
+  }
+  to {
+    transform: translate(-2%, -75%) scaleX(1);
+  }
+}
