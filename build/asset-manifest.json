@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/michael_website/static/css/main.f35e00cd.chunk.css",
+    "main.js": "/michael_website/static/js/main.a5f2a6a1.chunk.js",
+    "main.js.map": "/michael_website/static/js/main.a5f2a6a1.chunk.js.map",
+    "runtime-main.js": "/michael_website/static/js/runtime-main.485064f0.js",
+    "runtime-main.js.map": "/michael_website/static/js/runtime-main.485064f0.js.map",
+    "static/js/2.53dfda50.chunk.js": "/michael_website/static/js/2.53dfda50.chunk.js",
+    "static/js/2.53dfda50.chunk.js.map": "/michael_website/static/js/2.53dfda50.chunk.js.map",
+    "index.html": "/michael_website/index.html",
+    "precache-manifest.920bb4b3f28ee617513f5ad2e87f8dfa.js": "/michael_website/precache-manifest.920bb4b3f28ee617513f5ad2e87f8dfa.js",
+    "service-worker.js": "/michael_website/service-worker.js",
+    "static/css/main.f35e00cd.chunk.css.map": "/michael_website/static/css/main.f35e00cd.chunk.css.map",
+    "static/js/2.53dfda50.chunk.js.LICENSE.txt": "/michael_website/static/js/2.53dfda50.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/michael_website/static/media/Tungsten-Bold.0cafbb0a.woff",
+    "static/media/IMGbackground.webp": "/michael_website/static/media/IMGbackground.4e6cdd38.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.485064f0.js",
+    "static/js/2.53dfda50.chunk.js",
+    "static/css/main.f35e00cd.chunk.css",
+    "static/js/main.a5f2a6a1.chunk.js"
+  ]
+}
