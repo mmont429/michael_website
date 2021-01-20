@@ -109,7 +109,7 @@ function createAboutMe() {
         visit my website! I am a computer engineer studying at Queen's University located
         in Kingston, ON. Technology has been an interest of mine for as
         long as I can remember. I started taking courses on it since it was
-        first available in high school!
+        first available in high school.
       </p>
       <p>
         In 2019-2020 I campaigned to represent Canada in the Summer 2020 Olympics for Mens
